@@ -1,6 +1,6 @@
 # Note on ArchLinux on the Acer C720 Chromebook.  
 
-So the Archwiki has most of the must have info. These are just my notes on what I'm doing to keep my new linux laptop happy!
+So the [Archwiki](https://wiki.archlinux.org/index.php/Acer_C720_Chromebook) has most of the must have info. These are just my notes on what I'm doing to keep my new linux laptop happy!
 
 ## Enable the watchdog
 Copying system.conf to /etc/systemd or setting RuntimeWatchdogSec to a value should have systemd enable the hardware watchdog.  
