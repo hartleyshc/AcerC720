@@ -16,4 +16,5 @@ This will add zram compressed memory to the system as swap.
 ## TRIM
 Either mount ext4 with discard, or systemctl enable fstrim.timer which will periodically run fstrim to clean up the HD.  
 
- 
+## SOUND
+At a minimum, we want to set the PCM to be the default device (card 1).  The asoundrc will do that.   
